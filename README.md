@@ -2,6 +2,17 @@
 
 A production-grade LLM pipeline where autonomous agents collaborate to research, verify, and synthesise structured reports — with Redis caching to avoid redundant API calls.
 
+## Project Highlights
+
+- 🤖 **7 specialized AI agents** working as a coordinated research pipeline
+- 🔎 **Multi-step web research** using targeted query decomposition
+- ✅ **Cross-agent fact verification** to identify verified, disputed, and single-source claims
+- 🔄 **Self-critique and revision loop** using a dedicated critic agent
+- ⚡ **Redis caching** to reduce repeated LLM and web-search API calls
+- 🧠 **LangGraph state management** for conditional agent routing
+- 📄 **Structured Markdown reports** with findings, analysis, caveats, and sources
+- 💻 **CLI-based interface** for interactive or single-query research
+
 ---
 
 ## Architecture
